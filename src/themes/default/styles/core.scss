@@ -1,0 +1,37 @@
+@import './var/colors';
+
+
+.link {
+    cursor: pointer;
+}
+
+.app-search {
+    
+    .job-listing {
+        
+        padding-top: 2em;
+        
+        .job-item {
+
+            h5 {
+                font-weight: bold;
+            }
+
+            padding: 1em 0;
+            border-bottom: 1px solid $color--black;
+            
+            .job-item-preview {
+
+                margin: 2em 0;
+
+                img {
+                    max-width: 100%;
+                }
+
+            }
+
+        }
+        
+    }
+    
+}

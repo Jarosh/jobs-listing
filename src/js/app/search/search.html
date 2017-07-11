@@ -2,11 +2,11 @@
     <div class="row job-search-form">
         <div class="col-md-5">
             <b>Job Description</b>
-            <input type="text" class="form-control" ng-model="query.description"/>
+            <input type="text" class="form-control" ng-model="query.description" dir-on-enter="search()"/>
         </div>
         <div class="col-md-5">
             <b>Location</b>
-            <input type="text" class="form-control" ng-model="query.location"/>
+            <input type="text" class="form-control" ng-model="query.location" dir-on-enter="search()"/>
         </div>
         <div class="col-md-2">
             <br/>
